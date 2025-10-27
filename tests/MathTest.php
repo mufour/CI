@@ -8,7 +8,7 @@ final class MathTest extends TestCase
     public function testAdd(): void
     {
         $m = new Math();
-        $this->assertEquals(15, $m->add(2, 3));
+        $this->assertEquals(5, $m->add(2, 3));
     }
 
     public function testSubstract(): void
