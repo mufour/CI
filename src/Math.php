@@ -4,7 +4,6 @@ namespace App;
 
 class Math
 {
-const PI = '3.14159842'; 
 
     public function add(float $a, float $b): float
     {
