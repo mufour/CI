@@ -21,5 +21,7 @@ jobs:
       - name: Deploy to server
         run: |
           ssh -o StrictHostKeyChecking=no raoul@lesacteursduweb.fr "
-          echo "on est connecte 😉"
+          cd ~/www_github &&
+            git pull origin main &&
+            composer install --no-dev --no-interaction --prefer-dist
           "
